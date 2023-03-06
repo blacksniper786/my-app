@@ -1,14 +1,21 @@
-import logo from './logo.svg';
+import React from 'react';
+/* import logo from './logo.svg'; */
+/* import Item from './MyItem'; */
 import './App.css';
+import StarWars from './StarWars';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        {/* <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          black sniper was here !
         </p>
+        <Item name="blacksniper"/>
+        <Item name="abdeohss"/>
+        <Item name="ab oh"/>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -16,7 +23,8 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </a> */}
+        <StarWars/>
       </header>
     </div>
   );
